@@ -12,6 +12,7 @@ namespace Tyuiu.BorisovaDS.Sprint2.Task6.V14.Test
         {
             DataService ds = new DataService();
 
+
             Assert.AreEqual("Воскресенье", ds.FindDayName(2, 6));
             Assert.ThrowsException<ArgumentException>(() =>
             {

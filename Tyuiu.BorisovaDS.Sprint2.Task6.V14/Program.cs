@@ -41,6 +41,7 @@ namespace Tyuiu.BorisovaDS.Sprint2.Task6.V14
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                 *");
             Console.WriteLine("******************************************************************************");
 
+
             try
             {
                 string day = ds.FindDayName(k, d);

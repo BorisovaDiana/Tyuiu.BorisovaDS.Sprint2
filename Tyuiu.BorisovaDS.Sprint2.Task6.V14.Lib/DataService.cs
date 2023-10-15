@@ -22,6 +22,7 @@ namespace Tyuiu.BorisovaDS.Sprint2.Task6.V14.Lib
 
           int dayOfWeek = ((k + d) - 1) % 7;
 
+
           switch (dayOfWeek)
           {
               case 1: return "Понедельник";
